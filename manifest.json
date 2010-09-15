@@ -1,0 +1,15 @@
+{
+	"name": "DagbladetNice",
+	"version": "1.0",
+	"description": "Fikser litt på Dagbladet.no",
+	"icons": {
+		"48": "Icon-48.png",
+		"128": "Icon-128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*.dagbladet.no/*"],
+			"css": ["styles.css"]
+		}
+	]
+}
